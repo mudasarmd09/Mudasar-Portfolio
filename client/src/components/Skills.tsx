@@ -6,48 +6,30 @@ export function Skills() {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React.js', level: 95 },
-        { name: 'JavaScript', level: 92 },
-        { name: 'TypeScript', level: 88 },
-        { name: 'CSS3', level: 90 },
-        { name: 'HTML', level: 95 },
+        { name: 'Flutter', level: 90 },
+        { name: 'Dart', level: 90 },
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Express.js', level: 88 },
-        { name: 'MongoDB', level: 85 },
-        { name: 'PostgreSQL', level: 82 },
+        { name: 'Firebase', level: 90 },
+        { name: 'PostgreSQL', level: 90 },
+        { name: 'MongoDB', level: 90 },
       ]
     },
     {
-      title: 'Blockchain & AI',
-      skills: [
-        { name: 'Web3.js', level: 80 },
-        { name: 'Solidity', level: 75 },
-        { name: 'Machine Learning', level: 70 },
-        { name: 'Artificial Intelligence', level: 72 },
-      ]
-    },
-    {
-      title: 'Tools & Design',
+      title: 'Tools & Others',
       skills: [
         { name: 'Git/GitHub', level: 95 },
-        { name: 'UI/UX Design', level: 85 },
-        { name: 'Figma', level: 88 },
-        { name: 'Project Management', level: 80 },
+        { name: 'Figma', level: 85 },
       ]
     }
   ];
 
   const technologies = [
-    'React.js', 'Node.js', 'JavaScript', 'TypeScript', 'CSS3', 'HTML', 
-    'Express.js', 'MongoDB', 'PostgreSQL', 'Git/GitHub', 'REST APIs', 
-    'Web3.js', 'Solidity', 'Blockchain Development', 'Artificial Intelligence (AI)', 
-    'Machine Learning', 'UI/UX Design', 'Full-Stack Development', 
-    'Mobile Application Development', 'Project Management'
+    'Flutter', 'Dart', 'Python', 'PostgreSQL', 'MongoDB', 'Git',
+    'GraphQL', 'REST APIs', 'Figma'
   ];
 
   return (

@@ -46,7 +46,7 @@ export function Contact() {
       console.error("EmailJS Error:", error);
       toast({
         title: "Failed to send message",
-        description: "Please try again later or contact me directly at mudasar077689@gmail.com.",
+        description: "Please try again later or contact me directly at rajasaifi49@gmail.com.",
         variant: "destructive",
       });
     } finally {
@@ -57,17 +57,17 @@ export function Contact() {
   const contactInfo = [
     {
       title: "Email",
-      value: "mudasar077689@gmail.com",
+      value: "rajasaifi49@gmail.com",
       color: "text-portfolio-blue",
     },
     {
       title: "Phone",
-      value: "+923124353320",
+      value: "+92 301 5580405",
       color: "text-portfolio-purple",
     },
     {
       title: "Location",
-      value: "Bahawalpur, Punjab, Pakistan",
+      value: "Islamabad, Pakistan",
       color: "text-portfolio-cyan",
     },
   ];
