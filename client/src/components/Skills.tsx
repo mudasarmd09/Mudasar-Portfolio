@@ -6,30 +6,47 @@ export function Skills() {
     {
       title: 'Frontend',
       skills: [
-        { name: 'Flutter', level: 90 },
-        { name: 'Dart', level: 90 },
+        { name: 'React.js', level: 95 },
+        { name: 'JavaScript', level: 90 },
+        { name: 'TypeScript', level: 85 },
+        { name: 'CSS3', level: 90 },
+        { name: 'HTML', level: 95 },
       ]
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Firebase', level: 90 },
-        { name: 'PostgreSQL', level: 90 },
-        { name: 'MongoDB', level: 90 },
+        { name: 'Node.js', level: 90 },
+        { name: 'Express.js', level: 85 },
+        { name: 'MongoDB', level: 85 },
+        { name: 'PostgreSQL', level: 80 },
+        { name: 'REST APIs', level: 90 },
       ]
     },
     {
-      title: 'Tools & Others',
+      title: 'Web3 & AI/ML',
+      skills: [
+        { name: 'Web3.js', level: 75 },
+        { name: 'Solidity', level: 70 },
+        { name: 'Blockchain Development', level: 75 },
+        { name: 'Artificial Intelligence (AI)', level: 80 },
+        { name: 'Machine Learning', level: 75 },
+      ]
+    },
+    {
+      title: 'Tools & Design',
       skills: [
         { name: 'Git/GitHub', level: 95 },
-        { name: 'Figma', level: 85 },
+        { name: 'UI/UX Design', level: 85 },
+        { name: 'Figma', level: 80 },
+        { name: 'Flutter', level: 85 },
+        { name: 'React Native', level: 80 },
       ]
     }
   ];
 
   const technologies = [
-    'Flutter', 'Dart', 'Python', 'PostgreSQL', 'MongoDB', 'Git',
-    'GraphQL', 'REST APIs', 'Figma'
+    'React.js', 'Node.js', 'JavaScript', 'TypeScript', 'CSS3', 'HTML', 'Express.js', 'MongoDB', 'Git/GitHub', 'REST APIs', 'Web3.js', 'Solidity', 'Blockchain Development', 'Artificial Intelligence (AI)', 'Machine Learning', 'UI/UX Design', 'Full-Stack Development', 'Mobile Application Development', 'Project Management'
   ];
 
   return (
@@ -43,7 +60,7 @@ export function Skills() {
         </div>
 
         {/* Skill Categories */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {skillCategories.map((category, index) => (
             <Card 
               key={category.title}

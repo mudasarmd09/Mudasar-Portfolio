@@ -5,10 +5,10 @@ export function Footer() {
       <div className="container mx-auto px-6 py-12">
         <div className="text-center">
           <div className="text-2xl font-bold gradient-text mb-4">
-            Muhammad Saif Waheed
+            Muhammad Mudasar
           </div>
           <p className="text-muted-foreground mb-6">
-            Building the future, one line of code at a time.
+            Building scalable, modern web apps with passion and precision.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full mb-6"></div>
           <p className="text-sm text-muted-foreground">

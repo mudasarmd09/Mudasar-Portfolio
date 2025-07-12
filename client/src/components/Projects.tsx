@@ -11,29 +11,28 @@ import { Badge } from "@/components/ui/badge";
 export function Projects() {
   const projects = [
     {
-      title: "Multiplatform News App",
+      title: "Web3 Dashboard",
       description:
-        "A modern, cross-platform news app built with Flutter and Dart. Designed for Android, iOS, Web, and Desktop, it delivers real-time news from trusted sources with a responsive and beautifully crafted UI.",
-      image: "/assets/newsy.png",
-      technologies: ["Flutter", "Dart", "REST API"],
-      githubUrl: "https://github.com/SafuRaja7/News-App-Multi-Platform",
+        "A modern Web3 dashboard built with React.js and Web3.js. Features blockchain integration, smart contract interactions, and real-time cryptocurrency data visualization with a responsive UI.",
+      image: "/assets/placeholder.svg",
+      technologies: ["React.js", "Web3.js", "Solidity", "Node.js"],
+      githubUrl: "https://github.com/mudasarmd09",
     },
     {
-      title: "Pool Art – Dexplat",
+      title: "AI-Powered Business Tool",
       description:
-        "Developed at Dexplat, this intuitive mobile/web platform streamlines pool management and guest services. It features a clean UI, real-time booking, and admin tools for operational efficiency.",
-      image: "/assets/poolart.png",
-      technologies: ["Flutter", "Dart", "Firebase"],
-      web: "https://",
+        "An intelligent business automation platform integrating OpenAI APIs. Built with React.js and Node.js, it streamlines workflows with AI-powered assistants and smart data processing.",
+      image: "/assets/placeholder.svg",
+      technologies: ["React.js", "Node.js", "OpenAI API", "MongoDB"],
+      githubUrl: "https://github.com/mudasarmd09",
     },
     {
-      title: "DevFolio",
+      title: "Mobile-First Platform",
       description:
-        "DevFolio is a sleek, fully responsive portfolio template for developers. It showcases skills, projects, and contact info, and is optimized for fast performance across mobile and desktop platforms.",
-      image: "/assets/devfolio.png",
-      technologies: ["React", "Tailwind CSS", "Vite", "Typescript"],
-      githubUrl: "https://github.com/SafuRaja7/saifuraja-dev.git",
-      web: "https://saifu.me",
+        "A cross-platform mobile application built with Flutter and React Native. Features responsive design, real-time data sync, and optimized performance across iOS and Android devices.",
+      image: "/assets/placeholder.svg",
+      technologies: ["Flutter", "React Native", "Firebase", "TypeScript"],
+      githubUrl: "https://github.com/mudasarmd09",
     },
   ];
 

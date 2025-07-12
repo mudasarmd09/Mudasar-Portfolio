@@ -1,0 +1,52 @@
+You are an expert developer assistant.
+
+I have imported a portfolio project that contains another person's personal and professional information, including name, contact details, education, skills, experience, and profile description.
+
+I want you to **replace all old data with my details** provided below.
+
+✅ **MY DATA TO USE:**
+
+- **Full Name:** Muhammad Mudasar
+- **Display Name:** Mudasar MD
+- **Profile Title:** Full Stack Developer | React.js • Node.js • Web3 • Blockchain • AI/ML | UI/UX Wizard | Building Scalable, Modern Web Apps
+- **About Section:**
+  "Problem Solver by Nature | Full Stack Developer by Practice | Tech Collaborator by Choice. Over the past years, I’ve worked closely with designers, developers, and AI experts to turn early-stage ideas into real products — whether that meant building modern Web3 dashboards, mobile-first platforms, or integrating OpenAI into smart business tools. My primary stack revolves around React.js, Node.js, MongoDB, and PostgreSQL, and I’ve been diving deeper into blockchain technologies like Solidity, Web3.js, and NFT smart contracts. When needed, I integrate AI tools (Python, OpenAI APIs) to help apps think smarter and serve better. What drives me is solving real-world problems with code — from intuitive UI/UX designs to backend logic that scales. Every project I take on is an opportunity to explore, refine, and deliver."
+
+- **Emails:**
+  - mudasar077689@gmail.com
+  - mudasarmd09@gmail.com
+
+- **Phone:** +923124353320
+- **Address:** Bahawalpur, Punjab, Pakistan
+
+- **Education:**
+  Punjab Group Of Colleges  
+  Bachelor's degree, Computer/Information Technology Administration and Management  
+  July 2019 – April 2025
+
+- **Skills:**
+  React.js, Node.js, JavaScript, TypeScript, CSS3, HTML, Express.js, MongoDB, Git/GitHub, REST APIs, Web3.js, Solidity, Blockchain Development, Artificial Intelligence (AI), Machine Learning, UI/UX Design, Full-Stack Development, Mobile Application Development, Project Management
+
+- **Experience:**
+  Freelancer Full Stack Developer & Tech Consultant  
+  Self Employed | Remote | Jan 2024 – Present
+  - Developed full-stack applications using React.js, Node.js, and MongoDB.
+  - Built and deployed cross-platform mobile apps using Flutter and React Native.
+  - Designed wireframes and UI systems in Figma for better UX.
+  - Integrated AI tools like GPT-powered assistants via OpenAI APIs.
+  - Developed smart contracts in Solidity and Web3.js.
+  - Managed freelancers, timelines, and client communication.
+  - Delivered 10+ MVPs and dashboards for early-stage startups.
+
+- **Social Links:**
+  - LinkedIn: https://linkedin.com/in/mudasarmd
+  - GitHub: https://github.com/mudasarmd09
+  - Portfolio: https://mudasarmd09.github.io/
+
+✅ **Instructions:**
+- Remove all old references to previous owner’s name, experience, contact info, and projects.
+- Update all metadata, HTML meta tags, and Open Graph tags with this data.
+- Update footer details, contact sections, and any JSON-LD schema if present.
+- Ensure formatting, casing, and spacing remain clean.
+- After replacing, show me a summary of files and sections modified.
+
