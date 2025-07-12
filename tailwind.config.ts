@@ -61,9 +61,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        "portfolio-blue": "#3B82F6",
-        "portfolio-purple": "#8B5CF6",
+        "portfolio-blue": "#0EA5E9",
+        "portfolio-purple": "#8B5CF6", 
         "portfolio-cyan": "#06B6D4",
+        "portfolio-emerald": "#10B981",
+        "portfolio-orange": "#F97316",
+        "portfolio-violet": "#7C3AED",
+        "portfolio-pink": "#EC4899",
       },
       keyframes: {
         "accordion-down": {

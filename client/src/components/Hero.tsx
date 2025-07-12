@@ -9,68 +9,80 @@ export function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-muted/30 to-background relative overflow-hidden pt-24 md:pt-20">
-      {" "}
+    <section className="min-h-screen flex items-center justify-center hero-gradient relative overflow-hidden pt-24 md:pt-20">
       <BackgroundParticles />
-      {/* Background decoration */}
-      <div className="absolute inset-0 bg-gradient-to-r from-portfolio-blue/5 via-portfolio-purple/5 to-portfolio-cyan/5 animate-pulse"></div>
+      {/* Premium Background Effects */}
+      <div className="absolute inset-0 bg-gradient-to-r from-portfolio-blue/5 via-portfolio-purple/5 to-portfolio-cyan/5 animate-gradient"></div>
+      <div className="absolute top-20 left-20 w-72 h-72 bg-portfolio-blue/10 rounded-full blur-3xl animate-float"></div>
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-portfolio-purple/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Avatar and Name Section */}
-          <div className="flex flex-col items-center mb-8 animate-fade-in">
-          <Avatar className="w-40 h-40 mb-6 ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-300 hover:scale-105">
+          <div className="flex flex-col items-center mb-8 animate-scale-in">
+            <div className="relative group">
+              <Avatar className="w-48 h-48 mb-6 ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
+                <AvatarImage
+                  src="/assets/mudasar-profile.png"
+                  alt="Muhammad Mudasar"
+                  className="object-cover"
+                />
+                <AvatarFallback className="text-3xl font-bold gradient-text glass-card">
+                  MM
+                </AvatarFallback>
+              </Avatar>
+              <div className="absolute inset-0 bg-gradient-to-r from-portfolio-blue/20 to-portfolio-purple/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
 
-              <AvatarImage
-                src="/assets/mudasar-profile.png"
-                alt="Muhammad Mudasar"
-                className="object-cover"
-              />
-
-              <AvatarFallback className="text-2xl font-bold gradient-text bg-gradient-to-br from-portfolio-blue/20 to-portfolio-purple/20">
-                MM
-              </AvatarFallback>
-            </Avatar>
-
-            <h1 className="text-5xl md:text-7xl font-bold gradient-text mb-6">
-              Muhammad Mudasar
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold gradient-text mb-6 tracking-tight">
+              Mudasar MD
             </h1>
           </div>
 
-          <h2
-            className="text-2xl md:text-3xl text-muted-foreground font-medium mb-8 animate-fade-in"
-            style={{ animationDelay: "0.2s" }}
-          >
-            Full Stack Developer | React.js • Node.js • Web3 • Blockchain • AI/ML | UI/UX Wizard
-          </h2>
+          <div className="glass-card px-8 py-4 rounded-2xl mb-8 glow-border animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            <h2 className="text-xl md:text-2xl lg:text-3xl text-muted-foreground font-medium text-center">
+              <span className="text-portfolio-blue">Full Stack Developer</span> 
+              <span className="mx-2">•</span>
+              <span className="text-portfolio-purple">React.js</span>
+              <span className="mx-2">•</span>
+              <span className="text-portfolio-cyan">Node.js</span>
+              <span className="mx-2">•</span>
+              <span className="text-portfolio-emerald">Web3</span>
+              <span className="mx-2">•</span>
+              <span className="text-portfolio-orange">AI/ML</span>
+            </h2>
+          </div>
 
-          <p
-            className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in"
-            style={{ animationDelay: "0.4s" }}
-          >
-            Problem Solver by Nature | Full Stack Developer by Practice | Tech Collaborator by Choice. 
-            I turn early-stage ideas into real products — building modern Web3 dashboards, mobile-first platforms, 
-            and integrating AI into smart business tools using React.js, Node.js, MongoDB, and PostgreSQL.
-          </p>
+          <div className="glass-card p-6 rounded-2xl max-w-4xl mx-auto mb-12 animate-slide-up" style={{ animationDelay: "0.4s" }}>
+            <p className="text-xl text-muted-foreground leading-relaxed text-center">
+              <span className="text-portfolio-blue font-semibold">Problem Solver by Nature</span> | 
+              <span className="text-portfolio-purple font-semibold"> Full Stack Developer by Practice</span> | 
+              <span className="text-portfolio-cyan font-semibold"> Tech Collaborator by Choice</span>
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed text-center mt-4">
+              I turn early-stage ideas into scalable products — building modern Web3 dashboards, 
+              mobile-first platforms, and integrating AI into smart business tools using cutting-edge technologies.
+            </p>
+          </div>
 
           <div
-            className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 animate-fade-in"
+            className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 animate-slide-up"
             style={{ animationDelay: "0.6s" }}
           >
             <Button
               size="lg"
               onClick={() => scrollToSection("projects")}
-              className="bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-portfolio-blue/25"
+              className="glass-card bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-portfolio-blue/40 px-8 py-6 text-lg font-semibold"
             >
-              View My Work
+              <span className="relative z-10">View My Work</span>
             </Button>
 
             <Button
               variant="outline"
               size="lg"
               onClick={() => scrollToSection("contact")}
-              className="border-portfolio-blue/30 hover:border-portfolio-purple/50 hover:bg-portfolio-blue/10 transition-all duration-300 hover:scale-105"
+              className="glass-card glow-border hover:bg-portfolio-blue/10 transition-all duration-500 hover:scale-110 px-8 py-6 text-lg font-semibold"
             >
-              Get In Touch
+              <span className="relative z-10">Get In Touch</span>
             </Button>
           </div>
 

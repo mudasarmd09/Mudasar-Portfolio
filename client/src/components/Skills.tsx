@@ -4,43 +4,51 @@ import { Progress } from '@/components/ui/progress';
 export function Skills() {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Frontend Mastery',
+      icon: '🎨',
+      color: 'from-portfolio-blue to-portfolio-cyan',
       skills: [
-        { name: 'React.js', level: 95 },
-        { name: 'JavaScript', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'CSS3', level: 90 },
-        { name: 'HTML', level: 95 },
+        { name: 'React.js', level: 98 },
+        { name: 'Next.js', level: 95 },
+        { name: 'TypeScript', level: 95 },
+        { name: 'Tailwind CSS', level: 92 },
+        { name: 'Three.js', level: 85 },
       ]
     },
     {
-      title: 'Backend',
+      title: 'Backend Excellence',
+      icon: '⚙️',
+      color: 'from-portfolio-purple to-portfolio-blue',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Express.js', level: 85 },
-        { name: 'MongoDB', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'REST APIs', level: 90 },
+        { name: 'Node.js', level: 96 },
+        { name: 'Express.js', level: 94 },
+        { name: 'MongoDB', level: 90 },
+        { name: 'PostgreSQL', level: 88 },
+        { name: 'GraphQL', level: 85 },
       ]
     },
     {
-      title: 'Web3 & AI/ML',
+      title: 'Web3 & Blockchain',
+      icon: '🔗',
+      color: 'from-portfolio-cyan to-portfolio-emerald',
       skills: [
-        { name: 'Web3.js', level: 75 },
-        { name: 'Solidity', level: 70 },
-        { name: 'Blockchain Development', level: 75 },
-        { name: 'Artificial Intelligence (AI)', level: 80 },
-        { name: 'Machine Learning', level: 75 },
+        { name: 'Solidity', level: 88 },
+        { name: 'Web3.js', level: 90 },
+        { name: 'Smart Contracts', level: 85 },
+        { name: 'DeFi Protocols', level: 82 },
+        { name: 'IPFS', level: 80 },
       ]
     },
     {
-      title: 'Tools & Design',
+      title: 'AI & Machine Learning',
+      icon: '🤖',
+      color: 'from-portfolio-orange to-portfolio-pink',
       skills: [
-        { name: 'Git/GitHub', level: 95 },
-        { name: 'UI/UX Design', level: 85 },
-        { name: 'Figma', level: 80 },
-        { name: 'Flutter', level: 85 },
-        { name: 'React Native', level: 80 },
+        { name: 'OpenAI API', level: 92 },
+        { name: 'TensorFlow', level: 85 },
+        { name: 'LangChain', level: 88 },
+        { name: 'Computer Vision', level: 80 },
+        { name: 'NLP', level: 82 },
       ]
     }
   ];
@@ -50,13 +58,15 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-24 bg-gradient-to-b from-background to-muted/20">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6 animate-fade-in">
-            Skills & Technologies
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-6 animate-fade-in">
+            Technical Excellence
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full"></div>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Mastering cutting-edge technologies to deliver enterprise-grade solutions
+          </p>
         </div>
 
         {/* Skill Categories */}
