@@ -38,18 +38,23 @@ export function Hero() {
             </h1>
           </div>
 
-          <div className="glass-card px-8 py-4 rounded-2xl mb-8 glow-border animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <h2 className="text-xl md:text-2xl lg:text-3xl text-muted-foreground font-medium text-center">
-              <span className="text-portfolio-blue">Full Stack Developer</span> 
-              <span className="mx-2">•</span>
-              <span className="text-portfolio-purple">React.js</span>
-              <span className="mx-2">•</span>
-              <span className="text-portfolio-cyan">Node.js</span>
-              <span className="mx-2">•</span>
-              <span className="text-portfolio-emerald">Web3</span>
-              <span className="mx-2">•</span>
-              <span className="text-portfolio-orange">AI/ML</span>
-            </h2>
+          <div className="flex flex-wrap justify-center items-center gap-4 mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            {[
+              { name: "React.js", color: "from-portfolio-blue to-portfolio-purple" },
+              { name: "Node.js", color: "from-portfolio-purple to-portfolio-cyan" },
+              { name: "Web3", color: "from-portfolio-cyan to-portfolio-emerald" },
+              { name: "Blockchain", color: "from-portfolio-emerald to-portfolio-blue" },
+              { name: "AI/ML", color: "from-portfolio-blue to-portfolio-orange" },
+              { name: "UI/UX", color: "from-portfolio-purple to-portfolio-pink" },
+            ].map((skill, index) => (
+              <div
+                key={skill.name}
+                className={`glass-card px-4 py-2 rounded-full bg-gradient-to-r ${skill.color} text-white font-semibold text-sm hover:scale-110 transition-all duration-300 animate-fade-in premium-hover`}
+                style={{ animationDelay: `${0.3 + index * 0.1}s` }}
+              >
+                {skill.name}
+              </div>
+            ))}
           </div>
 
           <div className="glass-card p-6 rounded-2xl max-w-4xl mx-auto mb-12 animate-slide-up" style={{ animationDelay: "0.4s" }}>

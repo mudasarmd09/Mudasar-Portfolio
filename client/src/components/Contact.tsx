@@ -191,10 +191,10 @@ export function Contact() {
                 </h3>
                 <div className="flex space-x-4">
                   {[
-                    { name: "GitHub", url: "https://github.com/safuraja7" },
+                    { name: "GitHub", url: "https://github.com/mudasarmd09" },
                     {
-                      name: "LinkedIn",
-                      url: "https://www.linkedin.com/in/safuraja7/",
+                      name: "LinkedIn", 
+                      url: "https://www.linkedin.com/in/mudasarmd/",
                     },
                    
                   ].map((social, index) => (
@@ -217,6 +217,27 @@ export function Contact() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+
+        {/* Let's Work Together Section */}
+        <div className="max-w-4xl mx-auto mt-20 text-center animate-slide-up">
+          <div className="glass-card p-12 rounded-2xl glow-border">
+            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6">
+              Let's Work Together
+            </h2>
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Ready to transform your ideas into reality? I'm here to help you build innovative, 
+              scalable solutions that drive results. Let's discuss your next project.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="glass-card px-6 py-3 rounded-xl border border-portfolio-emerald/30">
+                <span className="text-sm font-medium text-portfolio-emerald">● Available for Freelance Projects</span>
+              </div>
+              <div className="glass-card px-6 py-3 rounded-xl border border-portfolio-blue/30">
+                <span className="text-sm font-medium text-portfolio-blue">● Open to Full-time Opportunities</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
