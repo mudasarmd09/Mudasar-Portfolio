@@ -11,29 +11,30 @@ import { Badge } from "@/components/ui/badge";
 export function Projects() {
   const projects = [
     {
-      title: "Multiplatform News App",
+      title: "Web3 Dashboard",
       description:
-        "A modern, cross-platform news app built with Flutter and Dart. Designed for Android, iOS, Web, and Desktop, it delivers real-time news from trusted sources with a responsive and beautifully crafted UI.",
-      image: "/assets/newsy.png",
-      technologies: ["Flutter", "Dart", "REST API"],
-      githubUrl: "https://github.com/SafuRaja7/News-App-Multi-Platform",
-    },
-    {
-      title: "Pool Art – Dexplat",
-      description:
-        "Developed at Dexplat, this intuitive mobile/web platform streamlines pool management and guest services. It features a clean UI, real-time booking, and admin tools for operational efficiency.",
-      image: "/assets/poolart.png",
-      technologies: ["Flutter", "Dart", "Firebase"],
-      web: "https://",
-    },
-    {
-      title: "DevFolio",
-      description:
-        "DevFolio is a sleek, fully responsive portfolio template for developers. It showcases skills, projects, and contact info, and is optimized for fast performance across mobile and desktop platforms.",
+        "A modern, responsive Web3 dashboard built with React.js and Node.js. Features real-time blockchain data visualization, smart contract interactions, and seamless wallet integration for DeFi applications.",
       image: "/assets/devfolio.png",
-      technologies: ["React", "Tailwind CSS", "Vite", "Typescript"],
-      githubUrl: "https://github.com/SafuRaja7/saifuraja-dev.git",
-      web: "https://saifu.me",
+      technologies: ["React.js", "Node.js", "Web3.js", "Solidity"],
+      githubUrl: "https://github.com/mudasarmd09",
+      web: "https://mudasarmd09.github.io/",
+    },
+    {
+      title: "AI-Powered Business Tools",
+      description:
+        "Smart business automation platform integrating OpenAI APIs for intelligent document processing, chatbot assistance, and data analysis. Built with modern React.js frontend and robust Node.js backend.",
+      image: "/assets/newsy.png",
+      technologies: ["React.js", "Node.js", "OpenAI API", "MongoDB"],
+      githubUrl: "https://github.com/mudasarmd09",
+    },
+    {
+      title: "Mobile-First E-commerce Platform",
+      description:
+        "Cross-platform mobile application built with React Native and Flutter. Features real-time inventory management, secure payment integration, and optimized user experience across all devices.",
+      image: "/assets/poolart.png",
+      technologies: ["React Native", "Flutter", "Express.js", "PostgreSQL"],
+      githubUrl: "https://github.com/mudasarmd09",
+      web: "https://mudasarmd09.github.io/",
     },
   ];
 
@@ -49,8 +50,8 @@ export function Projects() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full"></div>
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto animate-fade-in">
-            Here are some of my recent projects that showcase my skills and
-            passion for creating amazing web experiences.
+            Here are some of my recent projects that showcase my skills in full-stack development, 
+            Web3 technology, AI integration, and mobile application development.
           </p>
         </div>
 

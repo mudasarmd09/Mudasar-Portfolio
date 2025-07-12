@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import BackgroundParticles from "@/components/BackgroundParticles";
-import saifAvatar from "/assets/me.jpeg";
+import mudasarAvatar from "/assets/mudasar-profile.png";
 
 export function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -23,18 +23,18 @@ export function Hero() {
           <Avatar className="w-40 h-30 mb-6 ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-300 hover:scale-105">
 
               <AvatarImage
-                src={saifAvatar}
-                alt="Muhammad Saif Waheed"
+                src={mudasarAvatar}
+                alt="Muhammad Mudasar"
                 className="object-cover"
               />
 
               <AvatarFallback className="text-2xl font-bold gradient-text bg-gradient-to-br from-portfolio-blue/20 to-portfolio-purple/20">
-                
+                MM
               </AvatarFallback>
             </Avatar>
 
             <h1 className="text-5xl md:text-7xl font-bold gradient-text mb-6">
-              Muhammad Saif Waheed
+              Muhammad Mudasar
             </h1>
           </div>
 
@@ -42,17 +42,14 @@ export function Hero() {
             className="text-2xl md:text-3xl text-muted-foreground font-medium mb-8 animate-fade-in"
             style={{ animationDelay: "0.2s" }}
           >
-            Flutter Developer
+            Full Stack Developer | React.js • Node.js • Web3 • Blockchain • AI/ML | UI/UX Wizard | Building Scalable, Modern Web Apps
           </h2>
 
           <p
             className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            I build beautiful and high-performance cross-platform mobile apps
-            with Flutter. I&apos;m passionate about creating intuitive user
-            interfaces, writing clean, maintainable code, and turning complex
-            ideas into smooth, responsive mobile experiences
+            Problem Solver by Nature | Full Stack Developer by Practice | Tech Collaborator by Choice. Over the past years, I've worked closely with designers, developers, and AI experts to turn early-stage ideas into real products — whether that meant building modern Web3 dashboards, mobile-first platforms, or integrating OpenAI into smart business tools. My primary stack revolves around React.js, Node.js, MongoDB, and PostgreSQL, and I've been diving deeper into blockchain technology.
           </p>
 
           <div
@@ -84,17 +81,17 @@ export function Hero() {
             {[
               {
                 icon: Github,
-                href: "https://github.com/safuraja7",
+                href: "https://github.com/mudasarmd09",
                 label: "GitHub",
               },
               {
                 icon: Linkedin,
-                href: "https://www.linkedin.com/in/safuraja7/",
+                href: "https://linkedin.com/in/mudasarmd",
                 label: "LinkedIn",
               },
               {
                 icon: Mail,
-                href: "mailto:rajasaifi49@gmail.com",
+                href: "mailto:mudasar077689@gmail.com",
                 label: "Email",
               },
             ].map(({ icon: Icon, href, label }, index) => (
