@@ -35,7 +35,7 @@ export function About() {
           <div className="animate-slide-in-right">
             <div className="grid grid-cols-2 gap-6">
               {[
-                { number: '15+', label: 'Projects Delivered' },
+                { number: '10+', label: 'Projects Delivered' },
                 { number: '5+', label: 'Years Experience' },
                 { number: '10+', label: 'MVPs Launched' },
                 { number: '100%', label: 'Client Satisfaction' }

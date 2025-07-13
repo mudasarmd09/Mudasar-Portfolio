@@ -8,11 +8,11 @@ export function Skills() {
       icon: '🎨',
       color: 'from-portfolio-blue to-portfolio-cyan',
       skills: [
-        { name: 'React.js', level: 98 },
-        { name: 'Next.js', level: 95 },
-        { name: 'TypeScript', level: 95 },
+        { name: 'React.js', level: 95 },
+        { name: 'Next.js', level: 90 },
+        { name: 'TypeScript', level: 88 },
         { name: 'Tailwind CSS', level: 92 },
-        { name: 'Three.js', level: 85 },
+        { name: 'JavaScript', level: 95 },
       ]
     },
     {
@@ -20,11 +20,11 @@ export function Skills() {
       icon: '⚙️',
       color: 'from-portfolio-purple to-portfolio-blue',
       skills: [
-        { name: 'Node.js', level: 96 },
-        { name: 'Express.js', level: 94 },
-        { name: 'MongoDB', level: 90 },
-        { name: 'PostgreSQL', level: 88 },
-        { name: 'GraphQL', level: 85 },
+        { name: 'Node.js', level: 92 },
+        { name: 'Express.js', level: 90 },
+        { name: 'MongoDB', level: 88 },
+        { name: 'PostgreSQL', level: 85 },
+        { name: 'REST APIs', level: 90 },
       ]
     },
     {
@@ -32,11 +32,11 @@ export function Skills() {
       icon: '🔗',
       color: 'from-portfolio-cyan to-portfolio-emerald',
       skills: [
-        { name: 'Solidity', level: 88 },
-        { name: 'Web3.js', level: 90 },
-        { name: 'Smart Contracts', level: 85 },
-        { name: 'DeFi Protocols', level: 82 },
-        { name: 'IPFS', level: 80 },
+        { name: 'Solidity', level: 85 },
+        { name: 'Web3.js', level: 88 },
+        { name: 'Ethers.js', level: 85 },
+        { name: 'Smart Contracts', level: 82 },
+        { name: 'DeFi Development', level: 80 },
       ]
     },
     {
@@ -44,17 +44,17 @@ export function Skills() {
       icon: '🤖',
       color: 'from-portfolio-orange to-portfolio-pink',
       skills: [
-        { name: 'OpenAI API', level: 92 },
-        { name: 'TensorFlow', level: 85 },
-        { name: 'LangChain', level: 88 },
-        { name: 'Computer Vision', level: 80 },
-        { name: 'NLP', level: 82 },
+        { name: 'OpenAI API', level: 88 },
+        { name: 'Python', level: 85 },
+        { name: 'AI Integration', level: 85 },
+        { name: 'Machine Learning', level: 80 },
+        { name: 'Data Processing', level: 82 },
       ]
     }
   ];
 
   const technologies = [
-    'React.js', 'Node.js', 'JavaScript', 'TypeScript', 'CSS3', 'HTML', 'Express.js', 'MongoDB', 'Git/GitHub', 'REST APIs', 'Web3.js', 'Solidity', 'Blockchain Development', 'Artificial Intelligence (AI)', 'Machine Learning', 'UI/UX Design', 'Full-Stack Development', 'Mobile Application Development', 'Project Management'
+    'React.js', 'Next.js', 'Node.js', 'Express', 'JavaScript', 'TypeScript', 'MongoDB', 'PostgreSQL', 'Tailwind CSS', 'Git', 'Web3.js', 'Solidity', 'Ethers.js', 'OpenAI APIs', 'Python', 'Docker', 'Firebase', 'Figma', 'UI/UX Design'
   ];
 
   return (

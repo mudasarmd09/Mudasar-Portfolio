@@ -12,33 +12,33 @@ import { Github, ExternalLink } from "lucide-react";
 export function Projects() {
   const projects = [
     {
-      title: "Enterprise Web3 Dashboard",
+      title: "Web3 Trading Dashboard",
       description:
-        "A Fortune 500-ready Web3 analytics platform built with React.js, TypeScript, and Web3.js. Features real-time blockchain data visualization, smart contract interactions, DeFi portfolio tracking, and advanced security protocols. Handles 10M+ transactions daily.",
+        "A professional Web3 analytics platform built with React.js, TypeScript, and Web3.js. Features real-time blockchain data visualization, smart contract interactions, and DeFi portfolio tracking with secure wallet integration.",
       image: "/assets/placeholder.svg",
       technologies: ["React.js", "TypeScript", "Web3.js", "Solidity", "Node.js", "PostgreSQL"],
       githubUrl: "https://github.com/mudasarmd09",
-      metrics: ["10M+ Daily Transactions", "99.9% Uptime", "Sub-100ms Response Time"],
+      metrics: ["Real-time Analytics", "Secure Integration", "Modern UI/UX"],
       category: "Blockchain & Web3"
     },
     {
-      title: "AI-Powered Business Intelligence Platform",
+      title: "AI Content Management System",
       description:
-        "An intelligent enterprise automation platform integrating OpenAI GPT-4, Claude, and custom ML models. Built with React.js, Node.js, and Python. Automates complex workflows, provides predictive analytics, and delivers AI-driven insights that increased client efficiency by 300%.",
+        "An intelligent content management platform integrating OpenAI APIs for automated content generation and optimization. Built with React.js, Node.js, and Python. Features AI-powered workflows, content analytics, and automated publishing capabilities.",
       image: "/assets/placeholder.svg",
-      technologies: ["React.js", "Node.js", "Python", "OpenAI API", "TensorFlow", "MongoDB"],
+      technologies: ["React.js", "Node.js", "Python", "OpenAI API", "MongoDB", "Express"],
       githubUrl: "https://github.com/mudasarmd09",
-      metrics: ["300% Efficiency Boost", "50+ Enterprise Clients", "Real-time AI Processing"],
+      metrics: ["AI Integration", "Automated Workflows", "Content Analytics"],
       category: "AI & Machine Learning"
     },
     {
-      title: "Cross-Platform Mobile Ecosystem",
+      title: "E-Commerce Mobile App",
       description:
-        "A comprehensive mobile-first platform supporting iOS, Android, and web. Built with React Native, Flutter, and Next.js. Features offline-first architecture, real-time synchronization, push notifications, and advanced analytics. Serves 1M+ active users globally.",
+        "A modern mobile application for iOS and Android built with React Native. Features include user authentication, product catalog, shopping cart, payment integration, and real-time order tracking with a clean, intuitive interface.",
       image: "/assets/placeholder.svg",
-      technologies: ["React Native", "Flutter", "Next.js", "Node.js", "Firebase", "TypeScript"],
+      technologies: ["React Native", "Node.js", "MongoDB", "Express", "Firebase", "TypeScript"],
       githubUrl: "https://github.com/mudasarmd09",
-      metrics: ["1M+ Active Users", "4.8★ App Store Rating", "Global Distribution"],
+      metrics: ["Cross-Platform", "Payment Integration", "Real-time Updates"],
       category: "Mobile Development"
     },
   ];
@@ -54,7 +54,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Enterprise-grade solutions that deliver measurable impact for Fortune 500 companies and innovative startups
+            Showcase of professional applications built with modern technologies and best practices
           </p>
         </div>
 

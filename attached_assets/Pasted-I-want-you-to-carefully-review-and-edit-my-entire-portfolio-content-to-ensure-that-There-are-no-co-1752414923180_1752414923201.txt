@@ -1,0 +1,73 @@
+I want you to carefully review and edit my entire portfolio content to ensure that:
+
+There are no contradictions or repeated/conflicting claims.
+
+For example, if one place says I’ve delivered 2 projects and another says 3, make sure they are consistent.
+
+All statements are presented in a clear, professional, and unified way so that the reader feels confident the information is genuine.
+
+The content flows logically and feels coherent—like one credible story, not scattered pieces.
+
+Do NOT change or redesign the layout, personal information, or tone of voice—only fix inconsistencies and repetitions.
+
+If any claims cannot be verified from the reference data below, simplify or remove them to avoid exaggeration.
+
+Reference Data:
+Below is the core information from my LinkedIn profile that you should rely on to ensure consistency:
+
+✅ Experience:
+
+5+ years as a Full Stack Developer & Tech Consultant
+
+Delivered 10+ MVPs, dashboards, enterprise apps, and cross-platform solutions
+
+Specialized in:
+
+React.js, Node.js, MongoDB, PostgreSQL, Solidity, Web3.js
+
+AI tools (Python, OpenAI APIs)
+
+UI/UX Design, Mobile App Development
+
+✅ Strengths & Philosophy:
+
+Clean code, scalable architectures, and modern technologies
+
+Focus on clear communication, teamwork, and continuous learning
+
+Blending proven engineering with emerging tech (Blockchain, AI, Cloud)
+
+✅ Key Skills (from profile):
+
+Frontend: React.js, Next.js, Tailwind
+
+Backend: Node.js, Express, MongoDB, PostgreSQL
+
+Blockchain: Solidity, Web3.js, Ethers.js
+
+DevOps & Tools: Git, Docker, Firebase, Figma
+
+Other: AI/ML, UI/UX Design, Project Management
+
+Task Requirements:
+
+Read all sections of my portfolio carefully.
+
+Identify and remove any duplicate or conflicting statements.
+
+Harmonize all claims about experience, achievements, and skills so everything matches the reference data above.
+
+Keep the writing professional, credible, and confident, but not exaggerated.
+
+DO NOT modify layout, design elements, or personal details. Only adjust content for consistency and clarity.
+
+Optional:
+If you find any areas where the text is vague or hard to follow, you can gently rephrase to improve clarity—but avoid adding any unverified claims.
+
+✨ Instructions for Replit Agent:
+
+Deliver the cleaned-up content with all inconsistencies resolved.
+
+Keep everything in the same style and format.
+
+Ensure the final text feels authentic and trustworthy.
