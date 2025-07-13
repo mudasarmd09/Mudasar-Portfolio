@@ -22,7 +22,7 @@ export function Hero() {
             <div className="relative group">
               <Avatar className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mb-4 sm:mb-6 ring-2 sm:ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
                 <AvatarImage
-                  src="@assets/ChatGPT Image May 25, 2025, 09_10_24 AM_1752415889959.png"
+                  src="@assets/ChatGPT Image May 25, 2025, 09_10_24 AM_1752416050612.png"
                   alt="Muhammad Mudasar"
                   className="object-cover"
                 />
