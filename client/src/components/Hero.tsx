@@ -22,7 +22,7 @@ export function Hero() {
             <div className="relative group">
               <Avatar className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mb-4 sm:mb-6 ring-2 sm:ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
                 <AvatarImage
-                  src="@assets/ChatGPT Image May 25, 2025, 09_10_24 AM_1752415272943.png"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
                   alt="Muhammad Mudasar"
                   className="object-cover"
                 />
@@ -49,7 +49,7 @@ export function Hero() {
             ].map((skill, index) => (
               <div
                 key={skill.name}
-                className={`glass-card px-2 py-1 sm:px-3 sm:py-2 md:px-4 md:py-2 rounded-full bg-gradient-to-r ${skill.color} text-white font-semibold text-xs sm:text-sm hover:scale-110 transition-all duration-300 animate-fade-in premium-hover`}
+                className={`glass-card px-4 py-2 sm:px-5 sm:py-3 md:px-6 md:py-3 rounded-full bg-gradient-to-r ${skill.color} text-white font-semibold text-sm sm:text-base md:text-lg hover:scale-110 transition-all duration-300 animate-fade-in premium-hover shadow-lg`}
                 style={{ animationDelay: `${0.3 + index * 0.1}s` }}
               >
                 {skill.name}
@@ -76,16 +76,16 @@ export function Hero() {
             <Button
               size="lg"
               onClick={() => scrollToSection("projects")}
-              className="glass-card bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-portfolio-blue/40 px-8 py-6 text-lg font-semibold"
+              className="glass-card bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-portfolio-blue/40 px-8 py-6 text-lg font-semibold text-white border-0"
             >
-              <span className="relative z-10">View My Work</span>
+              <span className="relative z-10 text-white">View My Work</span>
             </Button>
 
             <Button
               variant="outline"
               size="lg"
               onClick={() => scrollToSection("contact")}
-              className="glass-card glow-border hover:bg-portfolio-blue/10 transition-all duration-500 hover:scale-110 px-8 py-6 text-lg font-semibold"
+              className="glass-card glow-border hover:bg-portfolio-blue/10 transition-all duration-500 hover:scale-110 px-8 py-6 text-lg font-semibold border-portfolio-blue/30 hover:border-portfolio-purple/50"
             >
               <span className="relative z-10">Get In Touch</span>
             </Button>

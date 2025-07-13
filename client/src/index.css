@@ -312,3 +312,22 @@ html {
   mask-composite: xor;
   pointer-events: none;
 }
+
+/* Enhanced Professional Styling */
+.skill-badge {
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Improved Button Visibility */
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%) !important;
+  color: white !important;
+}

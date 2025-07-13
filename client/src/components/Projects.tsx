@@ -109,18 +109,18 @@ export function Projects() {
                     variant="outline"
                     size="sm"
                     disabled
-                    className="flex items-center gap-2 glass-card opacity-70 cursor-not-allowed border-portfolio-blue/30 flex-1"
+                    className="flex items-center gap-2 glass-card opacity-70 cursor-not-allowed border-portfolio-blue/30 w-full sm:flex-1"
                   >
                     <Github className="w-4 h-4" />
-                    Code - Coming Soon
+                    <span className="text-xs sm:text-sm">Code - Coming Soon</span>
                   </Button>
                   <Button
                     size="sm"
                     disabled
-                    className="flex items-center gap-2 bg-gradient-to-r from-portfolio-blue/50 to-portfolio-purple/50 opacity-70 cursor-not-allowed flex-1"
+                    className="flex items-center gap-2 bg-gradient-to-r from-portfolio-blue/50 to-portfolio-purple/50 opacity-70 cursor-not-allowed w-full sm:flex-1"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    Live Demo - Coming Soon
+                    <span className="text-xs sm:text-sm">Live Demo - Coming Soon</span>
                   </Button>
                 </div>
               </CardContent>

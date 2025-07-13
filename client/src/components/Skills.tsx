@@ -54,7 +54,25 @@ export function Skills() {
   ];
 
   const technologies = [
-    'React.js', 'Next.js', 'Node.js', 'Express', 'JavaScript', 'TypeScript', 'MongoDB', 'PostgreSQL', 'Tailwind CSS', 'Git', 'Web3.js', 'Solidity', 'Ethers.js', 'OpenAI APIs', 'Python', 'Docker', 'Firebase', 'Figma', 'UI/UX Design'
+    { name: 'React.js', color: 'from-blue-500 to-cyan-400' },
+    { name: 'Next.js', color: 'from-gray-700 to-gray-900' },
+    { name: 'Node.js', color: 'from-green-500 to-emerald-400' },
+    { name: 'Express', color: 'from-gray-600 to-gray-800' },
+    { name: 'JavaScript', color: 'from-yellow-400 to-orange-400' },
+    { name: 'TypeScript', color: 'from-blue-600 to-blue-800' },
+    { name: 'MongoDB', color: 'from-green-600 to-green-800' },
+    { name: 'PostgreSQL', color: 'from-blue-400 to-indigo-600' },
+    { name: 'Tailwind CSS', color: 'from-cyan-400 to-blue-500' },
+    { name: 'Git', color: 'from-orange-500 to-red-500' },
+    { name: 'Web3.js', color: 'from-purple-500 to-pink-500' },
+    { name: 'Solidity', color: 'from-gray-500 to-gray-700' },
+    { name: 'Ethers.js', color: 'from-indigo-500 to-purple-600' },
+    { name: 'OpenAI APIs', color: 'from-green-400 to-teal-500' },
+    { name: 'Python', color: 'from-yellow-500 to-blue-500' },
+    { name: 'Docker', color: 'from-blue-500 to-blue-700' },
+    { name: 'Firebase', color: 'from-orange-400 to-yellow-400' },
+    { name: 'Figma', color: 'from-purple-400 to-pink-400' },
+    { name: 'UI/UX Design', color: 'from-pink-500 to-rose-500' }
   ];
 
   return (
@@ -103,12 +121,12 @@ export function Skills() {
           <h3 className="text-2xl font-bold mb-8 animate-fade-in">Technologies I Work With</h3>
           <div className="flex flex-wrap justify-center gap-3 animate-slide-in-left">
             {technologies.map((tech, index) => (
-              <span 
-                key={tech}
-                className={`skill-badge animate-scale-in`}
+              <span
+                key={tech.name}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 animate-fade-in hover:scale-105 hover:shadow-lg bg-gradient-to-r ${tech.color} text-white shadow-md`}
                 style={{ animationDelay: `${index * 0.05}s` }}
               >
-                {tech}
+                {tech.name}
               </span>
             ))}
           </div>
