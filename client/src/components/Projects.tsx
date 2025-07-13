@@ -48,17 +48,17 @@ export function Projects() {
       id="projects"
       className="py-24 bg-gradient-to-b from-background to-muted/20"
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold gradient-text mb-6">
             Featured Projects
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
             Showcase of professional applications built with modern technologies and best practices
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={project.title} 
@@ -104,23 +104,23 @@ export function Projects() {
                   ))}
                 </div>
                 
-                <div className="flex gap-3 pt-4">
+                <div className="flex flex-col sm:flex-row gap-3 pt-4">
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => window.open(project.githubUrl, "_blank")}
-                    className="flex items-center gap-2 glass-card glow-border flex-1 hover:bg-portfolio-blue/10"
+                    disabled
+                    className="flex items-center gap-2 glass-card opacity-70 cursor-not-allowed border-portfolio-blue/30 flex-1"
                   >
                     <Github className="w-4 h-4" />
-                    View Code
+                    Code - Coming Soon
                   </Button>
                   <Button
                     size="sm"
-                    onClick={() => window.open(project.githubUrl, "_blank")}
-                    className="flex items-center gap-2 bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan flex-1"
+                    disabled
+                    className="flex items-center gap-2 bg-gradient-to-r from-portfolio-blue/50 to-portfolio-purple/50 opacity-70 cursor-not-allowed flex-1"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    Live Demo
+                    Live Demo - Coming Soon
                   </Button>
                 </div>
               </CardContent>

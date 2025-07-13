@@ -30,12 +30,12 @@ export function Header() {
           : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold gradient-text animate-fade-in">
           Mudasar MD
         </div>
         
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
           {['about', 'skills', 'projects', 'contact'].map((item, index) => (
             <Button
               key={item}
@@ -48,11 +48,11 @@ export function Header() {
             </Button>
           ))}
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-2 sm:space-x-4">
           <a
             href="/assets/resume.pdf"
             download
-            className="flex items-center space-x-2 text-sm font-medium px-6 py-3 glass-card bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan rounded-xl transition-all duration-300 hover:scale-105 animate-fade-in text-white"
+            className="flex items-center space-x-2 text-xs sm:text-sm font-medium px-3 sm:px-6 py-2 sm:py-3 glass-card bg-gradient-to-r from-portfolio-blue to-portfolio-purple hover:from-portfolio-purple hover:to-portfolio-cyan rounded-xl transition-all duration-300 hover:scale-105 animate-fade-in text-white"
             style={{ animationDelay: '0.4s' }}
           >
             <Download className="w-4 h-4" />

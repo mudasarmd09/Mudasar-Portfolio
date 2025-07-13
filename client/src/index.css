@@ -270,3 +270,45 @@ html {
   background-size: 400% 400%;
   animation: gradient-shift 8s ease infinite;
 }
+
+/* Premium Mobile Optimizations */
+@media (max-width: 768px) {
+  .hero-gradient {
+    min-height: 100vh;
+    padding-top: 80px;
+  }
+  
+  .gradient-text {
+    background-size: 200% 200%;
+  }
+  
+  .glass-card {
+    backdrop-filter: blur(8px);
+  }
+}
+
+/* Enhanced Premium Effects */
+.premium-hover:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.glow-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  padding: 1px;
+  background: linear-gradient(45deg, 
+    hsl(var(--portfolio-blue)), 
+    hsl(var(--portfolio-purple)), 
+    hsl(var(--portfolio-cyan)));
+  border-radius: inherit;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  pointer-events: none;
+}

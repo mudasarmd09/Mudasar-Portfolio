@@ -37,8 +37,8 @@ const experiences = [
 export function Experience() {
   return (
     <section id="experience" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold gradient-text text-center mb-6 animate-fade-in">
+      <div className="container mx-auto px-4 sm:px-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text text-center mb-6 animate-fade-in">
           Experience
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full mb-12" />
@@ -50,11 +50,11 @@ export function Experience() {
               className={`hover-glow ${exp.color} bg-gradient-to-br from-muted/10 to-background animate-fade-in-up`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <CardContent className="p-6 space-y-4">
+              <CardContent className="p-4 sm:p-6 space-y-4">
                 <div className="flex items-center gap-3">
                   <Briefcase className="text-portfolio-blue w-5 h-5" />
                   <div>
-                    <h3 className="text-lg font-semibold">
+                    <h3 className="text-base sm:text-lg font-semibold">
                       {exp.title} |{" "}
                       <span className="gradient-text">{exp.company}</span>
                     </h3>
@@ -68,7 +68,7 @@ export function Experience() {
                   <p className="text-sm font-semibold text-muted-foreground">
                     Technologies:
                   </p>
-                  <div className="flex flex-wrap gap-2 mt-1">
+                  <div className="flex flex-wrap gap-1 sm:gap-2 mt-1">
                     {exp.technologies.map((tech) => (
                       <span
                         key={tech}

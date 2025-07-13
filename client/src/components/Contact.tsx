@@ -74,9 +74,9 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-6 animate-fade-in">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold gradient-text mb-6 animate-fade-in">
             Get In Touch
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-portfolio-blue to-portfolio-purple mx-auto rounded-full"></div>
@@ -86,7 +86,7 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <Card className="hover-glow border-portfolio-blue/20 bg-gradient-to-br from-background to-muted/30 animate-slide-in-left">
             <CardHeader>

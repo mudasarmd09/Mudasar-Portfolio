@@ -9,20 +9,20 @@ export function Hero() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center hero-gradient relative overflow-hidden pt-24 md:pt-20">
+    <section className="min-h-screen flex items-center justify-center hero-gradient relative overflow-hidden pt-20 pb-10 px-4 sm:px-6">
       <BackgroundParticles />
       {/* Premium Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-r from-portfolio-blue/5 via-portfolio-purple/5 to-portfolio-cyan/5 animate-gradient"></div>
       <div className="absolute top-20 left-20 w-72 h-72 bg-portfolio-blue/10 rounded-full blur-3xl animate-float"></div>
       <div className="absolute bottom-20 right-20 w-96 h-96 bg-portfolio-purple/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Avatar and Name Section */}
           <div className="flex flex-col items-center mb-8 animate-scale-in">
             <div className="relative group">
-              <Avatar className="w-48 h-48 mb-6 ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
+              <Avatar className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mb-4 sm:mb-6 ring-2 sm:ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
                 <AvatarImage
-                  src="/assets/mudasar-profile.png"
+                  src="@assets/ChatGPT Image May 25, 2025, 09_10_24 AM_1752415272943.png"
                   alt="Muhammad Mudasar"
                   className="object-cover"
                 />
@@ -33,12 +33,12 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-portfolio-blue/20 to-portfolio-purple/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
 
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold gradient-text mb-6 tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-bold gradient-text mb-4 sm:mb-6 tracking-tight">
               Mudasar MD
             </h1>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-4 mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
+          <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
             {[
               { name: "React.js", color: "from-portfolio-blue to-portfolio-purple" },
               { name: "Node.js", color: "from-portfolio-purple to-portfolio-cyan" },
@@ -49,7 +49,7 @@ export function Hero() {
             ].map((skill, index) => (
               <div
                 key={skill.name}
-                className={`glass-card px-4 py-2 rounded-full bg-gradient-to-r ${skill.color} text-white font-semibold text-sm hover:scale-110 transition-all duration-300 animate-fade-in premium-hover`}
+                className={`glass-card px-2 py-1 sm:px-3 sm:py-2 md:px-4 md:py-2 rounded-full bg-gradient-to-r ${skill.color} text-white font-semibold text-xs sm:text-sm hover:scale-110 transition-all duration-300 animate-fade-in premium-hover`}
                 style={{ animationDelay: `${0.3 + index * 0.1}s` }}
               >
                 {skill.name}

@@ -4,17 +4,17 @@ import { Card, CardContent } from '@/components/ui/card';
 export function About() {
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-muted/30 to-background">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-20 animate-fade-in">
-          <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold gradient-text mb-6">
             Development Philosophy
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
             Building digital solutions that help businesses scale and adapt in fast-changing markets
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="animate-slide-in-left">
             <Card className="hover-glow border-portfolio-blue/20 bg-gradient-to-br from-background to-muted/30">
               <CardContent className="p-8">
