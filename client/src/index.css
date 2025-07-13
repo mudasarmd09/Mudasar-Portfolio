@@ -319,3 +319,11 @@ html {
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255,255,255,0.1);
 }
+
+/* Profile Photo Optimization */
+[data-radix-avatar-image] {
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 100% !important;
+  height: 100% !important;
+}

@@ -24,7 +24,7 @@ export function Hero() {
                 <AvatarImage
                   src="/images/mudasar-profile.png"
                   alt="Muhammad Mudasar"
-                  className="object-cover"
+                  className="object-cover object-center w-full h-full"
                 />
                 <AvatarFallback className="text-3xl font-bold gradient-text glass-card">
                   MM
