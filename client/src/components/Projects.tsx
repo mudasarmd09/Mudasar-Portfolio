@@ -1,3 +1,4 @@
+
 import {
   Card,
   CardContent,
@@ -40,7 +41,7 @@ export function Projects() {
       githubUrl: "https://github.com/mudasarmd09",
       metrics: ["Cross-Platform", "Payment Integration", "Real-time Updates"],
       category: "Mobile Development"
-    },
+    }
   ];
 
   return (

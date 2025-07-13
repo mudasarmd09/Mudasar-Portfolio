@@ -1,8 +1,9 @@
+import { useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 
 export function Skills() {
-  const skillCategories = [
+  const skillCategories = useMemo(() => [
     {
       title: 'Frontend Mastery',
       icon: '🎨',
@@ -51,9 +52,9 @@ export function Skills() {
         { name: 'Data Processing', level: 82 },
       ]
     }
-  ];
+  ], []);
 
-  const technologies = [
+  const technologies = useMemo(() => [
     { name: 'React.js', color: 'from-blue-500 to-cyan-400' },
     { name: 'Next.js', color: 'from-gray-700 to-gray-900' },
     { name: 'Node.js', color: 'from-green-500 to-emerald-400' },
@@ -73,7 +74,7 @@ export function Skills() {
     { name: 'Firebase', color: 'from-orange-400 to-yellow-400' },
     { name: 'Figma', color: 'from-purple-400 to-pink-400' },
     { name: 'UI/UX Design', color: 'from-pink-500 to-rose-500' }
-  ];
+  ], []);
 
   return (
     <section id="skills" className="py-24 bg-gradient-to-b from-background to-muted/20">

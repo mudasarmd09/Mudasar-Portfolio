@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
-import { title } from "process";
 
 export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -43,7 +42,6 @@ export function Contact() {
       setSubject('');
       setMessage('');
     } catch (error) {
-      console.error("EmailJS Error:", error);
       toast({
         title: "Failed to send message",
         description: "Please try again later or contact me directly at mudasar077689@gmail.com.",
