@@ -22,7 +22,7 @@ export function Hero() {
             <div className="relative group">
               <Avatar className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mb-4 sm:mb-6 ring-2 sm:ring-4 ring-portfolio-blue/30 hover:ring-portfolio-purple/50 transition-all duration-500 hover:scale-110 premium-hover animate-glow-pulse">
                 <AvatarImage
-                  src="/images/mudasar-profile.png?v=2"
+                  src="/images/mudasar-profile.png?v=3"
                   alt="Muhammad Mudasar"
                   className="object-cover object-center w-full h-full scale-105"
                 />
