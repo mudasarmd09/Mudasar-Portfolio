@@ -7,10 +7,10 @@ export function About() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-5xl md:text-6xl font-bold gradient-text mb-6">
-            About Mudasar MD
+            Development Philosophy
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Transforming complex business challenges into elegant, scalable solutions
+            Building digital solutions that help businesses scale and adapt in fast-changing markets
           </p>
         </div>
 
@@ -18,18 +18,15 @@ export function About() {
           <div className="animate-slide-in-left">
             <Card className="hover-glow border-portfolio-blue/20 bg-gradient-to-br from-background to-muted/30">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6 text-portfolio-blue">Enterprise Innovation</h3>
+                <h3 className="text-2xl font-bold mb-6 text-portfolio-blue">My Approach</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  <span className="text-portfolio-blue font-semibold">Problem Solver by Nature</span> | <span className="text-portfolio-purple font-semibold">Full Stack Developer by Practice</span> | <span className="text-portfolio-cyan font-semibold">Tech Collaborator by Choice</span>. 
-                  With 5+ years of experience, I've architected solutions for Fortune 500 companies and innovative startups.
+                  With over 5 years of hands-on experience, I design and build digital solutions that help businesses scale and adapt in fast-changing markets. My philosophy blends proven engineering practices with emerging technologies like AI, blockchain, and cloud platforms to deliver reliable, future-ready products.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  My expertise spans building enterprise Web3 dashboards processing 10M+ daily transactions, AI-powered platforms increasing efficiency by 300%, 
-                  and mobile ecosystems serving 1M+ active users. I specialize in React.js, Node.js, Web3, Blockchain, and AI/ML integration.
+                  Throughout my career, I've collaborated with startups and established teams to launch 10+ MVPs, enterprise dashboards, and cross-platform applications. By combining deep expertise in React.js, Node.js, and Web3 development with a strong focus on UI/UX, I aim to create software that is both intuitive and impactful.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Beyond coding, I contribute to open-source projects, mentor developers, and stay at the forefront of emerging technologies 
-                  like quantum computing and decentralized autonomous organizations (DAOs).
+                  Whether it's crafting smart contracts, integrating AI-powered workflows, or optimizing backend performance, I approach every project with a commitment to clean code, thoughtful design, and measurable business results.
                 </p>
               </CardContent>
             </Card>
@@ -38,10 +35,10 @@ export function About() {
           <div className="animate-slide-in-right">
             <div className="grid grid-cols-2 gap-6">
               {[
-                { number: '100+', label: 'Projects Delivered' },
+                { number: '15+', label: 'Projects Delivered' },
                 { number: '5+', label: 'Years Experience' },
-                { number: '50+', label: 'Enterprise Clients' },
-                { number: '99.9%', label: 'Uptime' }
+                { number: '10+', label: 'MVPs Launched' },
+                { number: '100%', label: 'Client Satisfaction' }
               ].map((stat, index) => (
                 <Card 
                   key={index} 
